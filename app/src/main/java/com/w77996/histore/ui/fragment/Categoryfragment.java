@@ -7,9 +7,9 @@ import android.support.v4.app.Fragment;
  * on 2017/4/19.
  * Github:https://github.com/w77996
  */
-public class Categoryfragment extends Fragment {
-    public static Categoryfragment newInstance(){
-        return new Categoryfragment();
+public class CategoryFragment extends Fragment {
+    public static CategoryFragment newInstance(){
+        return new CategoryFragment();
     }
 
 }

@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.w77996.histore.ui.fragment.Categoryfragment;
+import com.w77996.histore.ui.fragment.CategoryFragment;
 import com.w77996.histore.ui.fragment.GamesFragment;
 import com.w77996.histore.ui.fragment.RankingFragment;
 import com.w77996.histore.ui.fragment.RecommendFragment;
@@ -30,7 +30,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
         mFragmentList.add(RecommendFragment.newInstance());
         mFragmentList.add(RankingFragment.newInstance());
         mFragmentList.add(GamesFragment.newInstance());
-        mFragmentList.add(Categoryfragment.newInstance());
+        mFragmentList.add(CategoryFragment.newInstance());
     }
     @Override
     public Fragment getItem(int position) {
