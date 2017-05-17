@@ -1,7 +1,10 @@
 package com.w77996.histore.presenter.contract;
 
 import com.w77996.histore.BaseView;
+import com.w77996.histore.bean.AppInfo;
 import com.w77996.histore.presenter.BasePresenter;
+
+import java.util.List;
 
 /**
  * Created by w77996
@@ -9,10 +12,12 @@ import com.w77996.histore.presenter.BasePresenter;
  * Github:https://github.com/w77996
  */
 public interface RecommendContract  {
-    interface  View extends BaseView{
-
+   public interface  View extends BaseView{
+       void  showResult(List<AppInfo> datas);
+       void showNodata();
+       void showError(String msg);
     }
-    interface Presenter extends BasePresenter {
+    public interface Presenter extends BasePresenter {
         void requestDatas();
     }
 }

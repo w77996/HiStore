@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/bean/AppInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/bean/PageBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/decoration/DividerItemDecoration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/http/ApiService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/http/HttpManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/w77996/histore/ui/adapter/RecomendAppAdatper.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_category.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_games.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_ranking.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recomend.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/template_recomend_app.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -6,4 +6,6 @@ package com.w77996.histore;
  * Github:https://github.com/w77996
  */
 public interface BaseView {
+    void showLodading();
+    void  dimissLoading();
 }
